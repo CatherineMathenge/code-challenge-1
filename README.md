@@ -25,26 +25,49 @@ The Speed Generator is a program that prompts the user to input the speed of a c
 For example, if the speed is 90, it should print: “Points: 4”. If the driver gets more than 12 points, the function should print: “License suspended”.
 
 #Description 3
-The Net Salary Calculator is a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. 
+The Net Salary Calculator is a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. It calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 
 
  
 ## Project Setup
 
 ### Prerequisites
-
-List any software, libraries, or dependencies required to run the project. Include the versions if applicable.
+In order to run the program, you will need :
+A text editor (e.g., Visual Studio Code.) to write and edit the code.
+A terminal to run the program.
+Once you have a text editor and a terminal, you will  create a new file and write the code for the "Grade Generator", "Speed Detector" and "NetSalarycalculator" toy problem in Javascript.
 
 ### Installation
-#Project 1
+Inorder to install and and set up the project locally, the following commands should be done:
 
-Provide step-by-step instructions on how to install and set up the project locally. Include any necessary commands or configuration steps.
+1.clone the project from the repository.
+
+2.Open a terminal and navigate to the project directory.
+Enter the followig commands:
+code .
+git clone
+
+3.Install the project dependencies in the Vscode by running the following command:
+npm install
+npm test
+
+4.Create a separate html file to help run the prompt when you go live.
+
 
 ### Usage
-#Project 1
+
+Once the dependencies are installed, you can run either of the three projects using the following command :
+node nameofproject.js or Go live to run the program from a web browser.
 
 
-Explain how to use the project, including any specific commands, input formats, or usage examples.
+This command will start the application and prompt you to enter either the grade, the speed or the basic salary.
+
+
+The application will calculate:
+The student grade based on the marks provided
+The points earned based on the speed provided
+The gross salary, payee (tax), NHIF deductions, NSSF deductions, and net salary based on the provided basic salary.
+
 
 ## Author & License
 
@@ -53,7 +76,7 @@ Explain how to use the project, including any specific commands, input formats, 
 This program was developed by Catherine Mathenge.
 
 ### License
-the project is distributed in ......
+the project is distributed in GNU GPL. General Public License V3.0
 
 
 

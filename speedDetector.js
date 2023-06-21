@@ -1,7 +1,5 @@
-const speed = 80;
-const speedNumber = parseInt(speed);
-
-if (isNaN(speedNumber) || speedNumber < 0 ) {
+const speed =parseFloat(prompt("Enter speed"));
+if (isNaN(speed) || speed < 0 ) {
     console.log("Invalid input. Please enter a number greater than 0.");
   } else {
     let print;
@@ -35,5 +33,5 @@ if (isNaN(speedNumber) || speedNumber < 0 ) {
     } else {
         print = 'License suspended';
     }
-    console.log(`Print: ${print}`);
+    console.log(print);
   }

@@ -1,23 +1,21 @@
-const marks = 59;
-const marksNumber = parseInt(marks);
-
-if (isNaN(marksNumber) || marksNumber < 0 || marksNumber > 100) {
+const marks = parseInt(prompt("Enter student marks"));
+if (isNaN(marks) || marks < 0 || marks > 100) {
     console.log("Invalid input. Please enter a number between 0 and 100.");
   } else {
     let grade;
     
-    if (marksNumber >= 80) {
+    if (marks >= 80) {
       grade = 'A';
-    } else if (marksNumber >= 60) {
+    } else if (marks >= 60) {
       grade = 'B';
-    } else if (marksNumber >= 50) {
+    } else if (marks >= 50) {
       grade = 'C';
-    } else if (marksNumber >= 40) {
+    } else if (marks >= 40) {
       grade = 'D';
     } else {
       grade = 'E';
     }
     
-    console.log(`Grade: ${grade}`);
+    console.log(grade)
   }
   
